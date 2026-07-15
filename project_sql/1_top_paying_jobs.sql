@@ -6,6 +6,26 @@ Question: What are the top-paying data analyst jobs?
 - Why? Highlight the top-paying opportunities for Data Analysts, offering insights into employment options and location flexibility.
 */
 
+-- If i to get the remote jobs than indonesia is not the option
+-- cuse there is no remote job for data analyst in indonesia
+SELECT
+    job_id,
+    job_title,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    job_posted_date::date,
+    name AS company_name
+FROM job_postings_fact
+LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
+WHERE
+    job_title_short = 'Data Analyst' AND
+    job_country = 'Indonesia' AND
+    salary_year_avg IS NOT NULL
+ORDER BY
+    salary_year_avg DESC
+LIMIT 10;
+
 SELECT
     job_id,
     job_title,
@@ -19,6 +39,7 @@ LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
 WHERE
     job_title_short = 'Data Analyst' AND
     job_location = 'Anywhere' AND
+    job_country = 'Indonesia' AND
     salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC
