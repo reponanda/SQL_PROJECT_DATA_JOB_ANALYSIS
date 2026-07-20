@@ -46,5 +46,5 @@ INNER JOIN paying_skills ON paying_skills.skill_id = demanded_skills.skill_id
 WHERE
     demand_count > 10
 ORDER BY
-    demand_count DESC, average_salary DESC
+    average_salary DESC
 LIMIT 25
