@@ -34,7 +34,7 @@ For my deep dive into the data analyst job market, I harnessed the power of seve
 
 Each query in this project aimed to investigate specific aspects of the data analyst job market. I attempted to filter for remote data analyst jobs in Indonesia, but no remote listings were found.
 
-![No Data for Remote Data Analyst Jobs in Indonesia](Assets\01_NoData.png)
+![No Data for Remote Data Analyst Jobs in Indonesia](Assets/01_NoData.png)
 
 So, I just focusing on the location which is in Indonesia. Here’s how I approached each question:
 
