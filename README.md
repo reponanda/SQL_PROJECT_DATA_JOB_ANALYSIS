@@ -83,7 +83,7 @@ However, here's a breakdown of the top highest-paying Data Analyst roles in Indo
 - **Company Patterns**: Fintech/lending and tech-platform companies (GoTo, BukuWarung, Trusting Social) dominate the upper-to-mid range, consistent with Jakarta's strong fintech scene.
 - **Location Concentration**: 8 of 10 roles are based in Jakarta, confirming it as the overwhelming hub for data analyst hiring in Indonesia.
 
-![Top Paying Data Analyst Jobs in Indonesia](Assets\02_indonesia_data_analyst_salaries.png)
+![Top Paying Data Analyst Jobs in Indonesia](Assets/02_indonesia_data_analyst_salaries.png)
 *bar chart above visualizing the salary for the top 10 salaries for data analysts in Indonesia; Claude generated this chart from my query results.*
 
 ### 2. Skills for Top Paying Jobs
@@ -167,7 +167,7 @@ Here's the breakdown of the most demanded skills for data analysts in Indonesia 
 - **SQL dominates the market** — it's mentioned in 226 job postings, nearly 1.5x more than the next closest skill (Python). This confirms SQL as the foundational, must-have skill for any data analyst role in Indonesia.
 - **The top 3 skills (SQL, Python, Excel) account for 73% of total demand** — meaning if a candidate masters just these three, they'd cover the vast majority of what employers are asking for, before even touching visualization tools like Tableau or R.
 
-![Top In-Demand Skills](Assets\03_indonesia_top_skills_2023.png)
+![Top In-Demand Skills](Assets/03_indonesia_top_skills_2023.png)
 *Bar chart visualizing the the most 5 demanded skills for data analyst jobs in Indonesia for 2023; Claude generated this graph from my SQL query results.*
 
 ### 4. Skills Based on Salary
